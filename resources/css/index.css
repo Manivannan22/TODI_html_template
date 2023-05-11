@@ -1,0 +1,32 @@
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #fb565a !important;
+}
+
+.nav-item > a:hover {
+  color: #fb565a !important;
+}
+
+.divider {
+  border-left: 1px solid black;
+  height: 100px;
+}
+
+.text-gradient {
+  background-image: radial-gradient(
+    ellipse at center,
+    #ff0000,
+    #c134a8,
+    #ff0000
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.misham{
+ top: -10;
+}
